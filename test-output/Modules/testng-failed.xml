@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Modules]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="merchant.Advice">
+        <methods>
+          <include name="adviceMenu"/>
+          <include name="searchAndDownAdv"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- merchant.Advice -->
+      <class name="merchant.OperatorTest">
+        <methods>
+          <include name="operatormenu"/>
+          <include name="setup"/>
+          <include name="editOperator"/>
+        </methods>
+      </class> <!-- merchant.OperatorTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Modules] -->

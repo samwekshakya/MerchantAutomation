@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Modules]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="merchant.TransactionTest">
+        <methods>
+          <include name="transactionmenu"/>
+          <include name="printTxn"/>
+          <include name="downloadTxn"/>
+          <include name="setup"/>
+          <include name="searchTxn"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- merchant.TransactionTest -->
+      <class name="merchant.ActivityLog">
+        <methods>
+          <include name="activitymenu"/>
+          <include name="search"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- merchant.ActivityLog -->
+      <class name="merchant.QRDownload">
+        <methods>
+          <include name="qrMenu"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- merchant.QRDownload -->
+      <class name="merchant.OperatorTest">
+        <methods>
+          <include name="searchOperator"/>
+          <include name="addOperator"/>
+          <include name="operatormenu"/>
+          <include name="setup"/>
+          <include name="editOperator"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- merchant.OperatorTest -->
+      <class name="merchant.FAQs">
+        <methods>
+          <include name="setup"/>
+          <include name="faqmenu"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- merchant.FAQs -->
+      <class name="merchant.Advice">
+        <methods>
+          <include name="adviceMenu"/>
+          <include name="searchAndDownAdv"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- merchant.Advice -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Modules]] -->

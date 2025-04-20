@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [merchant by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-dash(failed)">
+    <groups>
+      <run>
+        <include name="dash"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="merchant.DashboardTest">
+        <methods>
+          <include name="testLatestTransactionSummary"/>
+          <include name="testDashboardLoad"/>
+          <include name="testAnnouncementsDisplay"/>
+          <include name="Portal"/>
+        </methods>
+      </class> <!-- merchant.DashboardTest -->
+    </classes>
+  </test> <!-- GRP-dash(failed) -->
+</suite> <!-- Failed suite [merchant by groups] -->
